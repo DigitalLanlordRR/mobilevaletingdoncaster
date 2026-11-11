@@ -23,3 +23,10 @@ https://www.mobilevaletingdoncaster.co.uk
 ## Performance
 The site uses static HTML, one shared CSS file, a small deferred vanilla-JS file, system fonts, and CSS-generated decorative artwork. No external frameworks, icon fonts, remote images, trackers or third-party widgets are loaded by default.
 This is designed to minimise page weight and layout shift, but no one can truthfully guarantee passing Core Web Vitals without testing the deployed site. Test with PageSpeed Insights and Search Console field data after deployment. Targets at the 75th percentile: LCP <= 2.5s, INP <= 200ms, CLS <= 0.1.
+
+
+## Local area landing pages
+
+This build includes 67 individual area landing pages in `/areas/`, grouped on the homepage under Central, East, North and South Doncaster. The pages are linked from the homepage Areas Covered directory and cross-link to nearby areas. The sitemap includes every area page.
+
+Coverage wording is intentionally conditional: customers are asked to provide their postcode and appointment availability is confirmed before booking. Before launch, verify the actual operational service radius and remove any area page that cannot genuinely be served. Add locally verified photographs, completed-job examples and area-specific information over time; do not publish fabricated testimonials, addresses, prices or service guarantees.
